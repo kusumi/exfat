@@ -25,7 +25,7 @@
 #define EXFAT_H_INCLUDED
 
 #ifndef __ANDROID__
-/* Android.mk is used instead of autotools when targeting Android */
+/* Android.bp is used instead of autotools when targeting Android */
 #include "config.h"
 #endif
 #include "compiler.h"
